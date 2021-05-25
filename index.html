@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="hu">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,12 +10,38 @@
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/saját.css">
     <script src="js/bootstrap.min.js"></script>
+    <!--forrás: https://www.divinectorweb.com/2020/11/bootstrap-4-navbar-with-slider.html-->
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <title>bolt</title>
 </head>
+
 <body>
-    <!-- HEADER -->
-    <nav class="navbar navbar-dark bg-dark sticky-top">
-        <a class="navbar-brand">bac</a>
+    <!--NAVBAR-->
+    <!--forrás részlet: https://www.divinectorweb.com/2020/11/bootstrap-4-navbar-with-slider.html-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Creativo</a> <button aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
+                data-target="#navbarSupportedContent" data-toggle="collapse" type="button"><span
+                    class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Kezdőlap</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Kategóriák</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Összes termék</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Hírek</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
     <!-- TITLE -->
     <h1 class="text-center">Élelmiszerek</h1>
@@ -24,7 +51,7 @@
             <!-- COLUMN1 -->
             <div class="col-lg-3 col-md-5 col-sm-7 col-12 p-2">
                 <!-- CARD -->
-                <div class="card h-100" >
+                <div class="card h-100">
                     <img src="images/képek/elelmiszer/cinimini.jpg" class="card-img-top " alt="amerikai pszicho">
                     <div class="card-body">
                         <p class="card-text my-title1">cini mini müzli</p>
@@ -35,7 +62,7 @@
             <!-- COLUMN2 -->
             <div class="col-lg-3 col-md-5 col-sm-7 col-12 p-2">
                 <!-- CARD -->
-                <div class="card h-100" >
+                <div class="card h-100">
                     <img src="images/képek/elelmiszer/joghurt.jpg" class="card-img-top " alt="nyomd bébi nyomd">
                     <div class="card-body">
                         <p class="card-text my-title1">DANONINO JOGHURT</p>
@@ -46,10 +73,10 @@
             <!-- COLUMN3 -->
             <div class="col-lg-3 col-md-5 col-sm-7 col-12 p-2">
                 <!-- CARD -->
-                <div class="card h-100" >
-                    <img src="images/képek/elelmiszer/kenyér.jpg" class="card-img-top "  alt="ollókezü edward">
+                <div class="card h-100">
+                    <img src="images/képek/elelmiszer/kenyér.jpg" class="card-img-top " alt="ollókezü edward">
                     <div class="card-body">
-                        <p class="card-text my-title1" >Ollókezű Edward</p>
+                        <p class="card-text my-title1">Ollókezű Edward</p>
                     </div>
                 </div>
                 <!-- CARD END -->
@@ -57,7 +84,7 @@
             <!-- COLUMN4 -->
             <div class="col-lg-3 col-md-5 col-sm-7 col-12 p-2">
                 <!-- CARD -->
-                <div class="card h-100" >
+                <div class="card h-100">
                     <img src="images/képek/elelmiszer/ketchup.jpg" class="card-img-top " alt="szavak kertje">
                     <div class="card-body">
                         <p class="card-text my-title1">A szavak kertje</p>
@@ -68,7 +95,7 @@
             <!-- COLUMN5 -->
             <div class="col-lg-3 col-md-5 col-sm-7 col-12 p-2">
                 <!-- CARD -->
-                <div class="card h-100" >
+                <div class="card h-100">
                     <img src="images/képek/elelmiszer/majonez.jpg" class="card-img-top " alt="szentjánosbogarak sírja">
                     <div class="card-body">
                         <p class="card-text my-title1">Szentjánosbogarak sírja</p>
@@ -79,7 +106,7 @@
             <!-- COLUMN6 -->
             <div class="col-lg-3 col-md-5 col-sm-7 col-12 p-2">
                 <!-- CARD -->
-                <div class="card h-100" >
+                <div class="card h-100">
                     <img src="images/képek/elelmiszer/margarin.png" class="card-img-top " alt="kaliforniai álom">
                     <div class="card-body">
                         <p class="card-text my-title1">Kaliforniai álom</p>
@@ -90,7 +117,7 @@
             <!-- COLUMN7 -->
             <div class="col-lg-3 col-md-5 col-sm-7 col-12 p-2">
                 <!-- CARD -->
-                <div class="card h-100" >
+                <div class="card h-100">
                     <img src="images/képek/elelmiszer/mogyorovaj.jpg" class="card-img-top " alt="éjszakai ragadozók">
                     <div class="card-body">
                         <p class="card-text my-title1">Éjszakai ragadozók</p>
@@ -101,7 +128,7 @@
             <!-- COLUMN8 -->
             <div class="col-lg-3 col-md-5 col-sm-7 col-12 p-2">
                 <!-- CARD -->
-                <div class="card h-100" >
+                <div class="card h-100">
                     <img src="images/képek/elelmiszer/mustar.jpg" class="card-img-top " alt="fogságban">
                     <div class="card-body">
                         <p class="card-text my-title1">Fogságban</p>
@@ -112,7 +139,7 @@
             <!-- COLUMN9 -->
             <div class="col-lg-3 col-md-5 col-sm-7 col-12 p-2">
                 <!-- CARD -->
-                <div class="card h-100" >
+                <div class="card h-100">
                     <img src="images/képek/elelmiszer/nutella.jpg" class="card-img-top " alt="submarine">
                     <div class="card-body">
                         <p class="card-text my-title1">Submarine</p>
@@ -123,8 +150,9 @@
             <!-- COLUMN10 -->
             <div class="col-lg-3 col-md-5 col-sm-7 col-12 p-2">
                 <!-- CARD -->
-                <div class="card h-100" >
-                    <img src="images/képek/elelmiszer/puding.jpg" class="card-img-top " alt="az ember aki mindent tudott">
+                <div class="card h-100">
+                    <img src="images/képek/elelmiszer/puding.jpg" class="card-img-top "
+                        alt="az ember aki mindent tudott">
                     <div class="card-body">
                         <p class="card-text my-title1">Az ember, aki mindent tudott</p>
                     </div>
@@ -134,7 +162,7 @@
             <!-- COLUMN11 -->
             <div class="col-lg-3 col-md-5 col-sm-7 col-12 p-2">
                 <!-- CARD -->
-                <div class="card h-100" >
+                <div class="card h-100">
                     <img src="images/képek/elelmiszer/rizs.jpg" class="card-img-top " alt="grand budapest hotel">
                     <div class="card-body">
                         <p class="card-text my-title1">A Grand Budapest Hotel</p>
@@ -145,7 +173,7 @@
             <!-- COLUMN12 -->
             <div class="col-lg-3 col-md-5 col-sm-7 col-12 p-2">
                 <!-- CARD -->
-                <div class="card h-100" >
+                <div class="card h-100">
                     <img src="images/képek/elelmiszer/teszta.jpg" class="card-img-top " alt="truman show">
                     <div class="card-body">
                         <p class="card-text my-title1">Truman Show</p>
@@ -156,7 +184,7 @@
             <!-- COLUMN12 -->
             <div class="col-lg-3 col-md-5 col-sm-7 col-12 p-2">
                 <!-- CARD -->
-                <div class="card h-100" >
+                <div class="card h-100">
                     <img src="images/képek/elelmiszer/vaj.jpg" class="card-img-top " alt="truman show">
                     <div class="card-body">
                         <p class="card-text my-title1">Truman Show</p>
@@ -167,7 +195,7 @@
             <!-- COLUMN12 -->
             <div class="col-lg-3 col-md-5 col-sm-7 col-12 p-2">
                 <!-- CARD -->
-                <div class="card h-100" >
+                <div class="card h-100">
                     <img src="images/képek/elelmiszer/tej.jpg" class="card-img-top " alt="truman show">
                     <div class="card-body">
                         <p class="card-text my-title1">Truman Show</p>
@@ -178,7 +206,7 @@
             <!-- COLUMN12 -->
             <div class="col-lg-3 col-md-5 col-sm-7 col-12 p-2">
                 <!-- CARD -->
-                <div class="card h-100" >
+                <div class="card h-100">
                     <img src="images/képek/elelmiszer/sajt.jpg" class="card-img-top " alt="truman show">
                     <div class="card-body">
                         <p class="card-text my-title1">Truman Show</p>
@@ -189,7 +217,7 @@
             <!-- COLUMN12 -->
             <div class="col-lg-3 col-md-5 col-sm-7 col-12 p-2">
                 <!-- CARD -->
-                <div class="card h-100" >
+                <div class="card h-100">
                     <img src="images/képek/elelmiszer/rizsital.jpg" class="card-img-top " alt="truman show">
                     <div class="card-body">
                         <p class="card-text my-title1">Truman Show</p>
@@ -203,10 +231,11 @@
     <!-- FOOTER -->
     <footer class="bg-dark text-center text-lg-start">
         <!-- Copyright -->
-        <div class="text-center p-3  fixed-bottom my-footer" >
-          © Kozák Tamás
+        <div class="text-center p-3  fixed-bottom my-footer">
+            © Kozák Tamás
         </div>
         <!-- Copyright -->
-      </footer>
+    </footer>
 </body>
+
 </html>

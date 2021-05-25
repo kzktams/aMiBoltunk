@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="hu">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,16 +9,43 @@
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/saját.css">
+    <!--forrás: https://www.divinectorweb.com/2020/11/bootstrap-4-navbar-with-slider.html-->
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <script src="js/bootstrap.min.js"></script>
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
     <title>hus</title>
 </head>
+
 <body>
-    <!-- HEADER -->
-    <nav class="navbar navbar-dark bg-dark sticky-top">
-        <a class="navbar-brand">bac</a>
+    <!--NAVBAR-->
+    <!--forrás részlet: https://www.divinectorweb.com/2020/11/bootstrap-4-navbar-with-slider.html-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Creativo</a> <button aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
+                data-target="#navbarSupportedContent" data-toggle="collapse" type="button"><span
+                    class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Kezdőlap</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Kategóriák</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Összes termék</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Hírek</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
     <!-- TITLE -->
     <h1 class="text-center">Húsok</h1>
@@ -27,14 +55,16 @@
             <!-- COLUMN1 -->
             <div class="col-lg-3 col-md-5 col-sm-7 col-12 p-2">
                 <!-- CARD -->
-                <div class="card h-100" >
+                <div class="card h-100">
                     <img src="images/képek/husok/csirkecomb.jpg" class="card-img-top " alt="amerikai pszicho">
                     <div class="card-body">
                         <p class="card-text my-title1">CSIREKCOMB</p>
                         <button type="button" class="btn btn-outline-danger ">
                             <!--forrás: https://icons.getbootstrap.com/icons/cart-plus-fill/-->
-                            <svg xmlns="http://www.w3.org/2000/svg"  class="bi bi-cart-plus-fill icon" viewBox="0 0 16 16">
-                                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z"/>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-cart-plus-fill icon"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z" />
                             </svg>
                             <i class="bi bi-cart-plus-fill">KOSÁRBA TESZ</i>
                         </button>
@@ -45,14 +75,16 @@
             <!-- COLUMN2 -->
             <div class="col-lg-3 col-md-5 col-sm-7 col-12 p-2">
                 <!-- CARD -->
-                <div class="card h-100" >
+                <div class="card h-100">
                     <img src="images/képek/husok/csirkefarhat.jpg" class="card-img-top " alt="nyomd bébi nyomd">
                     <div class="card-body">
                         <p class="card-text my-title1">CSIRKEFARHÁT</p>
                         <button type="button" class="btn btn-outline-danger ">
                             <!--forrás: https://icons.getbootstrap.com/icons/cart-plus-fill/-->
-                            <svg xmlns="http://www.w3.org/2000/svg"  class="bi bi-cart-plus-fill icon" viewBox="0 0 16 16">
-                                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z"/>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-cart-plus-fill icon"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z" />
                             </svg>
                             <i class="bi bi-cart-plus-fill">KOSÁRBA TESZ</i>
                         </button>
@@ -63,14 +95,16 @@
             <!-- COLUMN3 -->
             <div class="col-lg-3 col-md-5 col-sm-7 col-12 p-2">
                 <!-- CARD -->
-                <div class="card h-100" >
-                    <img src="images/képek/husok/csirkemaj.jpg" class="card-img-top "  alt="ollókezü edward">
+                <div class="card h-100">
+                    <img src="images/képek/husok/csirkemaj.jpg" class="card-img-top " alt="ollókezü edward">
                     <div class="card-body">
-                        <p class="card-text my-title1" >CSIRKEMÁJ</p>
+                        <p class="card-text my-title1">CSIRKEMÁJ</p>
                         <button type="button" class="btn btn-outline-danger ">
                             <!--forrás: https://icons.getbootstrap.com/icons/cart-plus-fill/-->
-                            <svg xmlns="http://www.w3.org/2000/svg"  class="bi bi-cart-plus-fill icon" viewBox="0 0 16 16">
-                                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z"/>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-cart-plus-fill icon"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z" />
                             </svg>
                             <i class="bi bi-cart-plus-fill">KOSÁRBA TESZ</i>
                         </button>
@@ -81,14 +115,16 @@
             <!-- COLUMN4 -->
             <div class="col-lg-3 col-md-5 col-sm-7 col-12 p-2">
                 <!-- CARD -->
-                <div class="card h-100" >
+                <div class="card h-100">
                     <img src="images/képek/husok/csirkemell.jpg" class="card-img-top " alt="szavak kertje">
                     <div class="card-body">
                         <p class="card-text my-title1">CSIRKEMELL</p>
                         <button type="button" class="btn btn-outline-danger ">
                             <!--forrás: https://icons.getbootstrap.com/icons/cart-plus-fill/-->
-                            <svg xmlns="http://www.w3.org/2000/svg"  class="bi bi-cart-plus-fill icon" viewBox="0 0 16 16">
-                                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z"/>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-cart-plus-fill icon"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z" />
                             </svg>
                             <i class="bi bi-cart-plus-fill">KOSÁRBA TESZ</i>
                         </button>
@@ -99,14 +135,16 @@
             <!-- COLUMN5 -->
             <div class="col-lg-3 col-md-5 col-sm-7 col-12 p-2">
                 <!-- CARD -->
-                <div class="card h-100" >
+                <div class="card h-100">
                     <img src="images/képek/husok/csirkeszarny.jpg" class="card-img-top " alt="szentjánosbogarak sírja">
                     <div class="card-body">
                         <p class="card-text my-title1">CSIRKESZÁRNY</p>
                         <button type="button" class="btn btn-outline-danger ">
                             <!--forrás: https://icons.getbootstrap.com/icons/cart-plus-fill/-->
-                            <svg xmlns="http://www.w3.org/2000/svg"  class="bi bi-cart-plus-fill icon" viewBox="0 0 16 16">
-                                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z"/>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-cart-plus-fill icon"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z" />
                             </svg>
                             <i class="bi bi-cart-plus-fill">KOSÁRBA TESZ</i>
                         </button>
@@ -117,14 +155,16 @@
             <!-- COLUMN6 -->
             <div class="col-lg-3 col-md-5 col-sm-7 col-12 p-2">
                 <!-- CARD -->
-                <div class="card h-100" >
+                <div class="card h-100">
                     <img src="images/képek/husok/disznolab.jpg" class="card-img-top " alt="kaliforniai álom">
                     <div class="card-body">
                         <p class="card-text my-title1">DISZNÓLÁB</p>
                         <button type="button" class="btn btn-outline-danger ">
                             <!--forrás: https://icons.getbootstrap.com/icons/cart-plus-fill/-->
-                            <svg xmlns="http://www.w3.org/2000/svg"  class="bi bi-cart-plus-fill icon" viewBox="0 0 16 16">
-                                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z"/>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-cart-plus-fill icon"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z" />
                             </svg>
                             <i class="bi bi-cart-plus-fill">KOSÁRBA TESZ</i>
                         </button>
@@ -135,14 +175,16 @@
             <!-- COLUMN7 -->
             <div class="col-lg-3 col-md-5 col-sm-7 col-12 p-2">
                 <!-- CARD -->
-                <div class="card h-100" >
+                <div class="card h-100">
                     <img src="images/képek/husok/sonka.jpg" class="card-img-top " alt="éjszakai ragadozók">
                     <div class="card-body">
                         <p class="card-text my-title1">SONKA</p>
                         <button type="button" class="btn btn-outline-danger ">
                             <!--forrás: https://icons.getbootstrap.com/icons/cart-plus-fill/-->
-                            <svg xmlns="http://www.w3.org/2000/svg"  class="bi bi-cart-plus-fill icon" viewBox="0 0 16 16">
-                                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z"/>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-cart-plus-fill icon"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z" />
                             </svg>
                             <i class="bi bi-cart-plus-fill">KOSÁRBA TESZ</i>
                         </button>
@@ -153,14 +195,16 @@
             <!-- COLUMN8 -->
             <div class="col-lg-3 col-md-5 col-sm-7 col-12 p-2">
                 <!-- CARD -->
-                <div class="card h-100" >
+                <div class="card h-100">
                     <img src="images/képek/husok/szalami.jpg" class="card-img-top " alt="fogságban">
                     <div class="card-body">
                         <p class="card-text my-title1">SZALÁMI</p>
                         <button type="button" class="btn btn-outline-danger ">
                             <!--forrás: https://icons.getbootstrap.com/icons/cart-plus-fill/-->
-                            <svg xmlns="http://www.w3.org/2000/svg"  class="bi bi-cart-plus-fill icon" viewBox="0 0 16 16">
-                                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z"/>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-cart-plus-fill icon"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z" />
                             </svg>
                             <i class="bi bi-cart-plus-fill">KOSÁRBA TESZ</i>
                         </button>
@@ -171,14 +215,16 @@
             <!-- COLUMN9 -->
             <div class="col-lg-3 col-md-5 col-sm-7 col-12 p-2">
                 <!-- CARD -->
-                <div class="card h-100" >
+                <div class="card h-100">
                     <img src="images/képek/husok/szalonna.jpg" class="card-img-top " alt="submarine">
                     <div class="card-body">
                         <p class="card-text my-title1">SZALONNA</p>
                         <button type="button" class="btn btn-outline-danger ">
                             <!--forrás: https://icons.getbootstrap.com/icons/cart-plus-fill/-->
-                            <svg xmlns="http://www.w3.org/2000/svg"  class="bi bi-cart-plus-fill icon" viewBox="0 0 16 16">
-                                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z"/>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-cart-plus-fill icon"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z" />
                             </svg>
                             <i class="bi bi-cart-plus-fill">KOSÁRBA TESZ</i>
                         </button>
@@ -189,14 +235,16 @@
             <!-- COLUMN10 -->
             <div class="col-lg-3 col-md-5 col-sm-7 col-12 p-2">
                 <!-- CARD -->
-                <div class="card h-100" >
+                <div class="card h-100">
                     <img src="images/képek/husok/virsli.jpg" class="card-img-top " alt="az ember aki mindent tudott">
                     <div class="card-body">
                         <p class="card-text my-title1">VIRSLI</p>
                         <button type="button" class="btn btn-outline-danger ">
                             <!--forrás: https://icons.getbootstrap.com/icons/cart-plus-fill/-->
-                            <svg xmlns="http://www.w3.org/2000/svg"  class="bi bi-cart-plus-fill icon" viewBox="0 0 16 16">
-                                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z"/>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-cart-plus-fill icon"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z" />
                             </svg>
                             <i class="bi bi-cart-plus-fill">KOSÁRBA TESZ</i>
                         </button>
@@ -204,16 +252,17 @@
                 </div>
                 <!-- CARD END -->
             </div>
-            
+
         </div>
     </div>
     <!-- FOOTER -->
     <footer class="bg-dark text-center text-lg-start">
         <!-- Copyright -->
-        <div class="text-center p-3  fixed-bottom my-footer" >
-          © Kozák Tamás
+        <div class="text-center p-3  fixed-bottom my-footer">
+            © Kozák Tamás
         </div>
         <!-- Copyright -->
-      </footer>
+    </footer>
 </body>
+
 </html>
