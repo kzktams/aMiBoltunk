@@ -125,3 +125,20 @@ body{
 .navbar{
 	background-color: rgb(242, 222, 163);
 }
+
+footer{
+	width: 100%;
+	background-color: rgb(128,0,0);
+	padding: 5% 5% 10% 5%;
+	color: rgb(242, 222, 163);
+}
+.fa{
+	padding: 15px;
+	font-size: 20px;
+	color: rgb(242, 222, 163);
+}
+
+.fa:hover{
+	color: rgb(81, 196, 193);
+	text-decoration: none;
+}
